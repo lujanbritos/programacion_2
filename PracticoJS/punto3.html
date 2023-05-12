@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Saludo personalizado</title>
+</head>
+<body>
+	<h1>Saludo personalizado</h1>
+	<label for="nombre">Ingresar nombre</label>
+	<input type="text" id="nombre" name="nombre">
+	<button onclick="saludar()">Saludar</button>
+
+	<script>
+		function saludar() {
+			let nombre = document.getElementById("nombre").value;
+			alert("Holaaa, como estas " + nombre + "");
+		}
+	</script>
+</body>
+</html>
